@@ -4,93 +4,97 @@
 
 <head>
 	<title>Placement Application</title>
-  <meta charset="utf-8" /><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta charset="utf-8" /><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <link rel = "stylesheet" href = "placement_site.css">
     <link rel="icon" href="images/compozedlogo.jpeg" type="image/png" sizes="16x16">
 </head>
-<body>
 
-    <div class = "header">
-            <img src="compozedlogo.jpeg" alt="compozedlogo" width="176" height="111">
-                <span class="titletext">Application for U.S. based Allstate placement opportunity<br> - By Maria Thomas </span>
-        </div> <!--end of header-->
-    
-  <div class= "wrapper">
+<body>   
+<table cellspacing="0" cellpadding="0" class="layouttable">
+    <tbody>
+        <tr>
+            <td><img src="compozedlogo.jpeg" alt="compozedlogo" width="176" height="111"></td>
+            <td class="titletext_td"><span class="titletext">Application for U.S. based Allstate placement opportunity<br> - By Maria Thomas </span> </td>
+        </tr>
+        <tr>
+            <td valign="top" class="nav_td"> 
+                <br/>
+                <div class="nav">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="achievements.html">Achievements</a></li>
+                        <li><a href="testimonials.html">Testimonials</a></li>
+                        <li><a href="TimeatAllstate.html">Time at Allstate</a>
+                        <li><a href="whypickme.html">Why pick me?</a></li>
+                    </ul>
+                </div> <!--end nav --> </td>
+            <td> 
+                <div class = "content">
+                    
+                <h2>CompEdu Product launch:</h2>
 
-    <div class="nav">
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="achievements.html">Achievements</a></li>
-        <li><a href="testimonials.html">Testimonials</a></li>
-        <li><a href="TimeatAllstate.html">Time at Allstate</a>
-        <li><a href="whypickme.html">Why pick me?</a></li>
-      </ul>
-    </div> <!--end nav -->
-    
-    <div class = "content">
+                <p> CompEdu is a product that fellow intern Dylan Rafferty and I have been paired to and working on for the 
+                past few weeks. CompoZed Northland currently has a products board which contains product information such 
+                name, team members, technologies used, testing stack etc. for each product in the lab. This board was very 
+                rarely updated and this combined with the inconsistent written format made it difficult to use. We were 
+                tasked with digitising this board.<br><br>
 
-    <h2>CompEdu Product launch:</h2>
+                We discovered that developers tried to use this board to find out who had experience with a certain 
+                technology they were unfamiliar with and needed help with. However, the fact that the board was out of date 
+                meant they lost time asking several people before coming to someone who could help them. We provided a 
+                solution to this problem which will bring a lot of value to the company. <br><br>
 
-    <p> CompEdu is a product that fellow intern Dylan Rafferty and I have been paired to and working on for the 
-        past few weeks. CompoZed Northland currently has a products board which contains product information such 
-        name, team members, technologies used, testing stack etc. for each product in the lab. This board was very 
-        rarely updated and this combined with the inconsistent written format made it difficult to use. We were 
-        tasked with digitising this board.<br><br>
+                I have been heavily involved in this product from the very beginning. Despite choosing to code the product 
+                using React Javascript which neither of us had any experience in, we have taken it from the early 
+                scoping and inception stage right through to M.V.P. We will be further expanding on it post M.V.P. by adding 
+                additional features. We used a MSSQL database to store our data and an interesting point about React JS is  
+                that while it can access databases from the client side, it's not easily done and creates security issues. 
+                In order to circumvent this we decided to split our app into two separate applications; a server side and client 
+                side and use a database API to handle the calls between them. This was an excellent learning experience.
+                We are officially launching this product for use in the Belfast and Northland labs on Friday 25th of August
+                and this is something I am extremely looking forward to. It will also be added to the CompoZed docs and the 
+                Allstate website in the coming weeks.<br><br>
 
-        We discovered that developers tried to use this board to find out who had experience with a certain 
-        technology they were unfamiliar with and needed help with. However, the fact that the board was out of date 
-        meant they lost time asking several people before coming to someone who could help them. We provided a 
-        solution to this problem which will bring a lot of value to the company. <br><br>
+                This has definitely been the highlight of my Allstate placement so far. Being able to say that we have created
+                this product from scratch and the lab will now use it to help my colleagues is a major personal achievement 
+                for me.
+                </p>
+                <a target="_blank" href="https://comp-edu.apps.nonprod-mpn.ro11.allstate.com/">Link to product staged in Pivotal Cloud Foundry</a><br>
+                <a target="_blank" href="https://github.allstate.com/Belfast-Labs/CompEdu">Link to CompEdu github repository</a>
 
-        I have been heavily involved in this product from the very beginning. Despite choosing to code the product 
-        using React Javascript which neither of us had any experience in, we have taken it from the early 
-        scoping and inception stage right through to M.V.P. We will be further expanding on it post M.V.P. by adding 
-        additional features. We used a MSSQL database to store our data and an interesting point about React JS is  
-        that while it can access databases from the client side, it's not easily done and creates security issues. 
-        In order to circumvent this we decided to split our app into two separate applications; a server side and client 
-        side and use a database API to handle the calls between them. This was an excellent learning experience.
-        We are officially launching this product for use in the Belfast and Northland labs on Friday 25th of August
-         and this is something I am extremely looking forward to. It will also be added to the CompoZed docs and the 
-         Allstate website in the coming weeks.<br><br>
+                <h2>Highest G.P.A:</h2>
+                <p>I received a letter from the Head of the LYIT Computing department congratulating me on earning the highest 
+                G.P.A. across my class year group for the first semester of my course. (Second semester highest G.P.A. 
+                has not yet been released).
+                </p>
+                <h2> Highest mark in Computer Architecture: </h2>
+                <p>I was informed by my lecturer that I recieved the highest mark in the entire year for Computer Architecture 
+                in the second semester. He complimented me on this as this is a difficult thing to achieve considering we 
+                had to submit practical lab reports and quizzes weekly and end of semester exams for this subject making 
+                the workload very high. The material is also hard for most students to get their heads around.
+                </p>
+                <h2>Top scorer in Bursary interviews:</h2>
+                <p>Last year I was interviewed for a bursary scheme to encourage more females to get into computing. This scheme
+                was supported by Allstate and several other companies. One of the interviewers on the day was Global director of
+                CompoZed - Gina O'Leary. Not only was I accepted for this bursary but Gina recently informed me that I was the 
+                top scorer in the interviews.
+                </p>
+                </div><!-- End of content -->
+            </td>
+        </tr>
+    </tbody>
+</table>
 
-        This has definitely been the highlight of my Allstate placement so far. Being able to say that we have created
-         this product from scratch and the lab will now use it to help my colleagues is a major personal achievement 
-         for me.
-    </p>
-    <a target="_blank" href="https://comp-edu.apps.nonprod-mpn.ro11.allstate.com/">Link to product staged in Pivotal Cloud Foundry</a><br>
-    <a target="_blank" href="https://github.allstate.com/Belfast-Labs/CompEdu">Link to CompEdu github repository</a>
+<div class="nav2">
+<a href="index.html">Home</a> &nbsp;&nbsp;
+<a href="achievements.html">Achievements</a> &nbsp;&nbsp;
+<a href="testimonials.html">Testimonials</a> &nbsp;&nbsp;
+<a href="TimeatAllstate.html">Time at Allstate</a>&nbsp;&nbsp;
+<a href="whypickme.html">Why pick me?</a>
+</div> <!--end of nav2 div-->
 
-    <h2>Highest G.P.A:</h2>
-        <p>I received a letter from the Head of the LYIT Computing department congratulating me on earning the highest 
-            G.P.A. across my class year group for the first semester of my course. (Second semester highest G.P.A. 
-            has not yet been released).
-        </p>
-    <h2> Highest mark in Computer Architecture: </h2>
-        <p>I was informed by my lecturer that I recieved the highest mark in the entire year for Computer Architecture 
-           in the second semester. He complimented me on this as this is a difficult thing to achieve considering we 
-           had to submit practical lab reports and quizzes weekly and end of semester exams for this subject making 
-           the workload very high. The material is also hard for most students to get their heads around.
-        </p>
-    <h2>Top scorer in Bursary interviews:</h2>
-        <p>Last year I was interviewed for a bursary scheme to encourage more females to get into computing. This scheme
-            was supported by Allstate and several other companies. One of the interviewers on the day was Global director of
-            CompoZed - Gina O'Leary. Not only was I accepted for this bursary but Gina recently informed me that I was the 
-            top scorer in the interviews.
-        </p>
-
-    </div><!-- End of content -->
-    </div> <!-- end of wrapper -->
-    <div class="nav2">
-        <a href="index.html">Home</a> &nbsp;&nbsp;
-        <a href="achievements.html">Achievements</a> &nbsp;&nbsp;
-        <a href="testimonials.html">Testimonials</a> &nbsp;&nbsp;
-        <a href="TimeatAllstate.html">Time at Allstate</a>&nbsp;&nbsp;
-        <a href="whypickme.html">Why pick me?</a>
-    </div> <!--end of nav2 div-->
-
-    <div class = "footer" >
-      By Maria Thomas - 2017.
-    </div><!-- End of footer div -->
-
-  </body>
-  </html>
+<div class = "footer" >
+By Maria Thomas - 2017.
+</div><!-- End of footer div -->
+</body>
+</html>
