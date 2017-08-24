@@ -36,6 +36,8 @@ font-size: 1.2em; background-color: #9fc1b2; height: auto; width: 170px;}
 .nav a:active {color: #073C72;}
 .nav a {text-decoration: none;}
 
+dt{color:#608aa8; font-weight: bold; font-size:20px;}
+
 .nav2 {font-size: 1em; font-weight: bold; color: #000000; text-decoration: none; margin-left: 175px; width: 1126px;
     background-color: #9fc1b2; text-align: center; border-top: 1px; border-left: 0px; border-right: 0px; 
     border-bottom: 0px; border-style: solid; border-top-color: black;}
