@@ -15,7 +15,8 @@ body {color: #608aa8; background-color: #ffffff; font-family: Arial, Helvetica, 
 
 .header {color: #ffffff; font-family: Arial, Helvetica, sans-serif; background-color: #b6c8b6; height:111px; position: relative;}
 #header img {background-image: url(compozedlogo.jpeg); }
-.titletext {color:#073B72; font-size: 20px; /*font-weight:bold;*/ vertical-align: middle;  margin: 40px 0 0 30px}
+.titletext {color:#073B72; font-size: 30px; /*font-weight:bold;*/ vertical-align: middle;  margin: 40px 0 0 30px}
+.titletext2 {color:#073B72; font-size: 20px; /*font-weight:bold;*/ vertical-align: middle;  margin: 40px 0 0 30px}
 
 h2 {color:/*#B94A9A*//*#8e81d2;*/ /*#8477ab*/#b94a75; font-weight: bold; margin-top:10px; margin-bottom:10px;}
 
