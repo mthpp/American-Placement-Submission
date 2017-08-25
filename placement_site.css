@@ -15,10 +15,10 @@ body {color: #608aa8; background-color: #ffffff; font-family: Arial, Helvetica, 
 
 .header {color: #ffffff; font-family: Arial, Helvetica, sans-serif; background-color: #b6c8b6; height:111px; position: relative;}
 #header img {background-image: url(compozedlogo.jpeg); }
-.titletext {color:#073B72; font-size: 30px; /*font-weight:bold;*/ vertical-align: middle;  margin: 40px 0 0 30px}
-.titletext2 {color:#073B72; font-size: 20px; /*font-weight:bold;*/ vertical-align: middle;  margin: 40px 0 0 30px}
+.titletext {color:#073B72; font-size: 30px; vertical-align: middle;  margin: 40px 0 0 30px}
+.titletext2 {color:#073B72; font-size: 20px; vertical-align: middle;  margin: 40px 0 0 30px}
 
-h2 {color:/*#B94A9A*//*#8e81d2;*/ /*#8477ab*/#b94a75; font-weight: bold; margin-top:10px; margin-bottom:10px;}
+h2 {color:#b94a75; font-weight: bold; margin-top:10px; margin-bottom:10px;}
 
 #introtable td:nth-of-type(odd) {color: #b58947; font-weight: bold;}
 #introtable {text-align:left;}
@@ -27,11 +27,10 @@ h2 {color:/*#B94A9A*//*#8e81d2;*/ /*#8477ab*/#b94a75; font-weight: bold; margin-
 
 blockquote {margin:0px;}
 .quoter {color:#696969; margin-left: 60px;}
-.productcycleimage{padding-left: 125px;}
+.productcycleimage{margin-left: 100px;}
 .tech{color:#608aa8; font-weight:bold;}
 
 h3 {color:#608aa8;}
-/* .links{color:#4ab9a0;} */
 
 .nav2 {
         font-size: 1em; font-weight: bold; color: #000000; text-decoration: none;
@@ -48,7 +47,3 @@ h3 {color:#608aa8;}
             text-align: center; background-color: #9fc1b2; color: #000000; border-left: 0px; border-right: 0px; border-top: 0px; border-bottom: 1px;
             border-style: solid; border-bottom-color: black; width:100%;
         }
-
-        /*#cabbcc
-        #b6c8b6
-        original green #9fc1b2*/
